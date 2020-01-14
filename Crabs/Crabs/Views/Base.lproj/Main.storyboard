@@ -10,7 +10,7 @@
         <!--Play-->
         <scene sceneID="vua-Rj-74P">
             <objects>
-                <viewController id="FjE-aL-OLI" sceneMemberID="viewController">
+                <viewController id="FjE-aL-OLI" customClass="GameViewController" customModule="Crabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bgE-1Q-oTN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
         <!--Settings-->
         <scene sceneID="IGc-Id-ezd">
             <objects>
-                <viewController id="M6K-y4-RME" sceneMemberID="viewController">
+                <viewController id="M6K-y4-RME" customClass="SettingsViewController" customModule="Crabs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7JU-qj-y7u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -61,7 +61,7 @@
         <!--InfoNavigation-->
         <scene sceneID="8YJ-Dr-gdZ">
             <objects>
-                <viewControllerPlaceholder referencedIdentifier="InfoNavigation" id="YUz-ot-1UX" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="InfoNavigation" storyboardName="info" referencedIdentifier="InfoNavigation" id="YUz-ot-1UX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="x1g-Mo-GGi"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cRE-ce-ueF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
