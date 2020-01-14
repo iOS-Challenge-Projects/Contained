@@ -64,9 +64,9 @@
 		04CE34DE23CDB7320068AD13 /* Crabs */ = {
 			isa = PBXGroup;
 			children = (
-				04CE34F623CDBA250068AD13 /* Settings.swift */,
 				04CE34DF23CDB7320068AD13 /* AppDelegate.swift */,
 				04CE34E123CDB7320068AD13 /* SceneDelegate.swift */,
+				04CE34FF23CDDCF50068AD13 /* Model */,
 				04CE34FA23CDC1890068AD13 /* Controllers */,
 				04CE34F523CDB9D50068AD13 /* Views */,
 				04CE34E823CDB73A0068AD13 /* Assets.xcassets */,
@@ -93,6 +93,14 @@
 				04CE34FD23CDC1B50068AD13 /* SettingsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04CE34FF23CDDCF50068AD13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04CE34F623CDBA250068AD13 /* Settings.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
